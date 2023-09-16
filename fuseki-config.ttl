@@ -1,0 +1,51 @@
+PREFIX :        <#>
+PREFIX fuseki:  <http://jena.apache.org/fuseki#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ja:      <http://jena.hpl.hp.com/2005/11/Assembler#>
+
+[] rdf:type fuseki:Server ;
+   fuseki:services (
+     :service
+   ) .
+
+# Service description for "/dataset" with all endpoints.
+:service rdf:type fuseki:Service ;
+    fuseki:name "dataset" ;
+    fuseki:endpoint [
+        fuseki:operation fuseki:query ;
+        fuseki:name "query" 
+    ] ;
+    fuseki:endpoint [ 
+        fuseki:operation fuseki:gsp-rw ; 
+        fuseki:name "data"
+    ] ; 
+    fuseki:dataset :dataset ;
+    .
+
+# Dataset with only the default graph.
+:dataset rdf:type       ja:RDFDataset ;
+    ja:defaultGraph     :model_inf2 ;
+     .
+
+# The inference model
+:model_inf2 a ja:InfModel ;
+     ja:baseModel :model_inf1 ;
+     ja:reasoner [
+         # ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner> ;
+         # For RDFS: use this instead:
+         ## ja:reasonerURL <http://jena.hpl.hp.com/2003/RDFSExptRuleReasoner>
+         ja:reasonerURL <http://jena.hpl.hp.com/2003/GenericRuleReasoner> ;
+         ja:rulesFrom <file:rule.rules>
+     ] .
+
+:model_inf1 a ja:InfModel ;
+     ja:baseModel :baseModel ;
+
+     ja:reasoner [
+        ja:reasonerURL <http://jena.hpl.hp.com/2003/OWLFBRuleReasoner>
+     ] .
+
+# The base data.
+:baseModel a ja:MemoryModel ;
+    ja:content [ja:externalContent <file:ontology.ttl>, <file:data/test.ttl> ] .
