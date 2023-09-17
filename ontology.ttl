@@ -6,10 +6,6 @@
 @prefix fbo: <http://localhost:3000/ontology#> .
 @base <http://localhost:3000/ontology#> .
 
-#################################################################
-#    Classes
-#################################################################
-
 fbo:Player a foaf:Person ;
   rdfs:label "Player" ;
   rdfs:comment "A football player." .
@@ -114,10 +110,6 @@ fbo:isChampionOf a rdf:Property, owl:ObjectProperty ;
   rdfs:domain fbo:NationalTeam ;
   rdfs:range fbo:LeagueSeason ;
   owl:inverseOf fbo:hasChampion .
-
-fbo:hasChampion a rdf:Property, owl:ObjectProperty ;
-  rdfs:domain fbo:LeagueSeason ;
-  rdfs:range fbo:NationalTeam .
 
 fbo:heldInYear a rdf:Property, owl:DatatypeProperty ;
   rdfs:domain fbo:LeagueSeason ;
