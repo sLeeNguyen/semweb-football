@@ -1,10 +1,21 @@
 ## Semantic Web
 
-Building a simple football ontology and dataset.
+Building a simple football ontology, dataset and web search.
+
+### References
+- [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/index.html)
+- [Jena Full Text Search](https://jena.apache.org/documentation/query/text-query.html)
 
 ### Start
 
-Run fuseki server
+1. Build the Text Index
 ```
-  ./fuseki-server --update --config <path_to_fuseki-config.ttl>
+  java -cp $FUSEKI_HOME/fuseki-server.jar jena.textindexer --desc=<path_to_fuseki-config.ttl>
 ```
+
+2. Run fuseki server
+```
+  $FUSEKI_HOME/fuseki-server --update --config <path_to_fuseki-config.ttl>
+```
+
+3. Import data to server
