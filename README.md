@@ -22,6 +22,7 @@ Building a simple football ontology, dataset and web search.
 
 4. Run web server
 ```
+  cd web/
   yarn build
   yarn start
 ```
