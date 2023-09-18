@@ -14,33 +14,33 @@ LIMIT 10
 # lấy thông tin của một cầu thủ
 SELECT ?name ?img ?des ?position ?goals ?height ?area ?areaName ?country ?countryName ?joinedYear ?leftYear
 WHERE {
-  	fbr:Nguyen_Ba_Ngoc a fbo:Player . 
-	fbr:Nguyen_Ba_Ngoc fbo:name ?name .
-	OPTIONAL  {fbr:Nguyen_Ba_Ngoc fbo:img ?img} .
-	OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:description ?des} .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:goals ?goals} .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:hasPosition ?pos . ?pos rdfs:label ?position } .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:height ?height} .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:belongToArea ?area . ?area fbo:name ?areaName} .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:belongToCountry ?country . ?country fbo:name ?countryName} .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:joinedYear ?joinedYear} .
-  OPTIONAL {fbr:Nguyen_Ba_Ngoc fbo:leftYear ?leftYear} .
+  	fbr:Le_Cong_Vinh a fbo:Player . 
+	fbr:Le_Cong_Vinh fbo:name ?name .
+	OPTIONAL  {fbr:Le_Cong_Vinh fbo:img ?img} .
+	OPTIONAL {fbr:Le_Cong_Vinh fbo:description ?des} .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:goals ?goals} .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:hasPosition ?pos . ?pos rdfs:label ?position } .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:height ?height} .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:belongToArea ?area . ?area fbo:name ?areaName} .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:belongToCountry ?country . ?country fbo:name ?countryName} .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:joinedYear ?joinedYear} .
+  OPTIONAL {fbr:Le_Cong_Vinh fbo:leftYear ?leftYear} .
 }
 LIMIT 1
 
 # lấy các danh hiệu của một cầu thủ
 SELECT ?title ?titleName 
 WHERE {
-	fbr:Nguyen_Ba_Ngoc a fbo:Player .
-	fbr:Nguyen_Ba_Ngoc fbo:hasTitle ?title .
+	fbr:Le_Cong_Vinh a fbo:Player .
+	fbr:Le_Cong_Vinh fbo:hasTitle ?title .
 	?title fbo:name ?titleName
 }
 
 # lấy các giải đấu mà một cầu thủ tham gia
 SELECT ?ls ?lsName 
 WHERE {
-	fbr:Nguyen_Ba_Ngoc a fbo:Player .
-	fbr:Nguyen_Ba_Ngoc fbo:joinedLeagueSeason ?ls .
+	fbr:Le_Cong_Vinh a fbo:Player .
+	fbr:Le_Cong_Vinh fbo:joinedLeagueSeason ?ls .
 	?ls fbo:name ?lsName
 }
 
@@ -82,3 +82,25 @@ WHERE {
 	fbr:Vietnam_national_football_team fbo:isChampionOf ?title .
 	?title fbo:name ?titleName
 }
+
+# lấy thông tin về một giải đấu
+SELECT ?name ?img ?des ?area ?areaName {
+	fbr:Asia_Cup a fbo:League .
+	fbr:Asia_Cup fbo:name ?name .
+	OPTIONAL  {fbr:Asia_Cup fbo:img ?img} .
+	OPTIONAL {fbr:Asia_Cup fbo:description ?des} .
+	OPTIONAL {fbr:Asia_Cup fbo:belongToArea ?area . ?area fbo:name ?areaName} .
+}
+LIMIT 1
+
+# lấy thông tin về một mùa của một giải đấu
+SELECT ?name ?img ?des ?league ?leagueName ?champion ?championName {
+	fbr:Asia_Cup_2022 a fbo:LeagueSeason .
+	fbr:Asia_Cup_2022 fbo:name ?name .
+	fbr:Asia_Cup_2022 fbo:aSeasonOf ?league . ?league fbo:name ?leagueName .
+	OPTIONAL  {fbr:Asia_Cup_2022 fbo:img ?img} .
+	OPTIONAL {fbr:Asia_Cup_2022 fbo:description ?des} .
+  OPTIONAL {fbr:Asia_Cup_2022 fbo:heldInYear ?year} .
+	OPTIONAL {fbr:Asia_Cup_2022 fbo:hasChampion ?champion . ?champion fbo:name ?championName} .
+}
+LIMIT 1

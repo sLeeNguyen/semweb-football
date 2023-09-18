@@ -51,7 +51,7 @@ fbo:birthPlace a rdf:Property, owl:DatatypeProperty ;
 
 fbo:height a rdf:Property, owl:DatatypeProperty ;
   rdfs:domain foaf:Person ;
-  rdfs:range rdfs:Literal .
+  rdfs:range xsd:nonNegativeInteger .
 
 fbo:belongToCountry a rdf:Property, owl:ObjectProperty ;
   rdfs:domain foaf:Person ;
