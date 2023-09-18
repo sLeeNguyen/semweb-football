@@ -1,9 +1,8 @@
 
 # Tìm kiếm resource theo tên
-SELECT ?resource ?type ?name ?description ?hl
+SELECT ?resource ?name ?img ?description ?hl
 WHERE {
   ?resource fbo:name ?name .
-  ?resource a ?type .
   OPTIONAL  {?resource fbo:img ?img} .
   OPTIONAL {?resource fbo:description ?description} .
   (?resource ?score ?hl)  text:query ("nguyen le ngoc" "highlight:s:<b> | e:</b>") ;
@@ -14,7 +13,7 @@ LIMIT 10
 # lấy thông tin của một cầu thủ
 SELECT ?name ?img ?des ?position ?goals ?height ?area ?areaName ?country ?countryName ?joinedYear ?leftYear
 WHERE {
-  	fbr:Le_Cong_Vinh a fbo:Player . 
+	fbr:Le_Cong_Vinh a fbo:Player . 
 	fbr:Le_Cong_Vinh fbo:name ?name .
 	OPTIONAL  {fbr:Le_Cong_Vinh fbo:img ?img} .
 	OPTIONAL {fbr:Le_Cong_Vinh fbo:description ?des} .
