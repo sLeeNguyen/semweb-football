@@ -126,7 +126,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX fbo: <http://localhost:3000/ontology#> 
 PREFIX fbr: <http://localhost:3000/resource/> 
 
-SELECT ?name ?img ?des ?fifaCode ?area ?areaName ?country ?countryName {
+SELECT ?name ?img ?des ?rank ?fifaCode ?area ?areaName ?country ?countryName {
 	fbr:{nationalTeam} a fbo:NationalTeam .
   fbr:{nationalTeam} fbo:name ?name .
 	OPTIONAL  {fbr:{nationalTeam} fbo:img ?img} .

@@ -177,6 +177,7 @@ export class Querier {
         year: item.year?.value ?? null,
       })),
       fifaCode: info.fifaCode?.value ?? null,
+      rank: info.rank?.value ?? null,
     };
   }
 

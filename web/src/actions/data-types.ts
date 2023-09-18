@@ -55,6 +55,7 @@ export type Team = {
   name: string;
   img: string | null;
   des: string | null;
+  rank: string | null;
   fifaCode: string | null;
   area: string | null;
   areaName: string | null;

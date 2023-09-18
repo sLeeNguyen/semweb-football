@@ -39,6 +39,14 @@ export default async function Page({ params }: { params: { id: string } }) {
                   <td>{data.des}</td>
                 </tr>
               )}
+              {data.rank && (
+                <tr>
+                  <td>
+                    <b>Rank</b>
+                  </td>
+                  <td>{data.rank}</td>
+                </tr>
+              )}
               {data.country && data.countryName && (
                 <tr>
                   <td>
