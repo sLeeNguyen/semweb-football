@@ -6,7 +6,7 @@ Building a simple football ontology, dataset and web search.
 - [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/index.html)
 - [Jena Full Text Search](https://jena.apache.org/documentation/query/text-query.html)
 
-### Start
+### Get started
 
 1. Build the Text Index
 ```
@@ -18,4 +18,10 @@ Building a simple football ontology, dataset and web search.
   $FUSEKI_HOME/fuseki-server --update --config <path_to_fuseki-config.ttl>
 ```
 
-3. Import data to server
+3. Import data to fuseki server
+
+4. Run web server
+```
+  yarn build
+  yarn start
+```
