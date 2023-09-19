@@ -31,7 +31,7 @@ fbr:Li_Lei a fbo:Player ;
   fbo:joinedYear 2019 ;
   fbo:description: "Li Lei (Chinese: 李磊; pinyin: Lǐ Lěi; Mandarin pronunciation: [lì lèɪ]; born 30 May 1992) is a Chinese footballer who plays as a left-back for Grasshoppers in the Swiss Super League.";
   fbo:belongToCountry fbr:China;
-  fbo:hasPosition fbo:fbo:Defender.
+  fbo:hasPosition fbo:Defender.
 
 ## South korean players
 fbr:Son_Heung_min a fbo:Player ;
@@ -41,7 +41,7 @@ fbr:Son_Heung_min a fbo:Player ;
   fbo:img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Korea_Russia_WorldCup_02_%28cropped%29.png/440px-Team_Korea_Russia_WorldCup_02_%28cropped%29.png";
   fbo:description: "Son Heung-min (Korean: 손흥민; Korean pronunciation: [son.ɣɯŋ.min]; born 8 July 1992) is a South Korean professional footballer who plays as a forward for and captains both Premier League club Tottenham Hotspur and the South Korea national team.[3] Considered one of the best players in the world and widely regarded as the greatest Asian footballer of all time, he is known for his explosive speed, finishing, two-footedness and ability to link play.";
   fbo:belongToCountry fbr:South_Korea;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Cho_Gue-sung a fbo:Player ;
   fbo:name "Cho Gue Sung" ;
@@ -50,7 +50,7 @@ fbr:Cho_Gue-sung a fbo:Player ;
   fbo:description: "Cho Gue-sung (born 25 January 1998) is a South Korean footballer who plays as striker for Danish Superliga club Midtjylland and the South Korea national team.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg/440px-191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg";
   fbo:belongToCountry fbr:South_Korea;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Lee_Kang-in a fbo:Player ;
   fbo:name "Lee Kang In" ;
@@ -59,7 +59,7 @@ fbr:Lee_Kang-in a fbo:Player ;
   fbo:description: "Lee Kang-in (Korean: 이강인; born 19 February 2001) is a South Korean professional footballer who plays as an attacking midfielder or a winger for Ligue 1 club Paris Saint-Germain and the South Korea national team. Known for his dribbling ability, he is regarded as one of the best young Korean footballers.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg/440px-Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg";
   fbo:belongToCountry fbr:South_Korea;
-  fbo:hasPosition fbo:fbo:Midfielder.
+  fbo:hasPosition fbo:Midfielder.
 
 ## Saudi Arabian players
 fbr:Yasser_Al-Shahrani a fbo:Player ;
@@ -69,7 +69,7 @@ fbr:Yasser_Al-Shahrani a fbo:Player ;
   fbo:joinedYear 2012 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Yasser_Al-Shahrani_2018.jpg/440px-Yasser_Al-Shahrani_2018.jpg";
   fbo:belongToCountry fbr:Saudi_Arabia;
-  fbo:hasPosition fbo:fbo:Defender.
+  fbo:hasPosition fbo:Defender.
 
 fbr:Mohammed_Al-Owais a fbo:Player ;
   fbo:name "Mohammed Al Owais" ;
@@ -78,7 +78,7 @@ fbr:Mohammed_Al-Owais a fbo:Player ;
   fbo:joinedYear 2022 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mohammed_Al-Owais_2018.jpg/440px-Mohammed_Al-Owais_2018.jpg";
   fbo:belongToCountry fbr:Saudi_Arabia;
-  fbo:hasPosition fbo:fbo:Goalkeeper.
+  fbo:hasPosition fbo:Goalkeeper.
 
 ## Japanese players
 fbr:Takefusa_Kubo a fbo:Player ;
@@ -88,7 +88,7 @@ fbr:Takefusa_Kubo a fbo:Player ;
   fbo:description: "Takefusa Kubo (久保 建英, Kubo Takefusa, born 4 June 2001), commonly known as Take Kubo, is a Japanese professional footballer[3] who plays as a right winger for La Liga club Real Sociedad and the Japan national team.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Takefusa_Kubo_2019.png/440px-Takefusa_Kubo_2019.png";
   fbo:belongToCountry fbr:Japan;
-  fbo:hasPosition fbo:fbo:Midfielders.
+  fbo:hasPosition fbo:Midfielders.
 
 fbr:Keito_Nakamura a fbo:Player ;
   fbo:name "Keito Nakamura" ;
@@ -97,8 +97,8 @@ fbr:Keito_Nakamura a fbo:Player ;
   fbo:description "Keito Nakamura (中村 敬斗, Nakamura Keito, born 28 July 2000) is a Japanese professional footballer who plays for Ligue 1 club Reims and the Japan national team. He plays either as a winger or a forward.[2][3][4]";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/FC_Red_Bull_Salzburg_gegen_Linzer_ASK_%282022-10-01%29a_02.jpg/440px-FC_Red_Bull_Salzburg_gegen_Linzer_ASK_%282022-10-01%29a_02.jpg";
   fbo:belongToCountry fbr:Japan;
-  fbo:hasPosition fbo:fbo:Midfielders;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Midfielders;
+  fbo:hasPosition fbo:Forward.
 
 ## German players
 fbr:Thomas_Muller a fbo:Player ;
@@ -108,7 +108,7 @@ fbr:Thomas_Muller a fbo:Player ;
   fbo:joinedYear 2010 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg/440px-2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg";
   fbo:belongToCountry fbr:Germany;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Mario_Gotze a fbo:Player ;
   fbo:name "Mario Gotze" ;
@@ -117,8 +117,8 @@ fbr:Mario_Gotze a fbo:Player ;
   fbo:joinedYear 2010 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Mario_G%C3%B6tze%2C_Germany_national_football_team_%2807%29.jpg/440px-Mario_G%C3%B6tze%2C_Germany_national_football_team_%2807%29.jpg";
   fbo:belongToCountry fbr:Germany ;
-  fbo:hasPosition fbo:fbo:Midfielders;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Midfielders;
+  fbo:hasPosition fbo:Forward.
 
 ## France players
 fbr:Kylian_Mbappe a fbo:Player ;
@@ -128,7 +128,7 @@ fbr:Kylian_Mbappe a fbo:Player ;
   fbo:joinedYear 2017 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg/440px-2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg";
   fbo:belongToCountry fbr:France ;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Antoine_Griezmann a fbo:Player ;
   fbo:name "Antoine Griezmann" ;
@@ -137,8 +137,8 @@ fbr:Antoine_Griezmann a fbo:Player ;
   fbo:joinedYear 2014 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Antoine_Griezmann_2018.jpg/440px-Antoine_Griezmann_2018.jpg";
   fbo:belongToCountry fbr:France ;
-  fbo:hasPosition fbo:fbo:Midfielders;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Midfielders;
+  fbo:hasPosition fbo:Forward.
 
 ## Argentina players
 fbr:Lionel_Messi a fbo:Player ;
@@ -148,8 +148,8 @@ fbr:Lionel_Messi a fbo:Player ;
   fbo:joinedYear 2005 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg";
   fbo:belongToCountry fbr:Argentina ;
-  fbo:hasPosition fbo:fbo:Midfielders;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Midfielders;
+  fbo:hasPosition fbo:Forward.
 
 fbr:Alejandro_Garnacho a fbo:Player ;
   fbo:name "Alejandro Garnacho" ;
@@ -158,7 +158,7 @@ fbr:Alejandro_Garnacho a fbo:Player ;
   fbo:joinedYear 2023 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Manchester_United_v_Brighton_%26_Hove_Albion%2C_7_August_2022_%2836%29.jpg/440px-Manchester_United_v_Brighton_%26_Hove_Albion%2C_7_August_2022_%2836%29.jpg";
   fbo:belongToCountry fbr:Argentina ;
-  fbo:hasPosition fbo:fbo:Midfielders.
+  fbo:hasPosition fbo:Midfielders.
 
 ### Brazil players
 fbr:Neymar a fbo:Player ;
@@ -168,7 +168,7 @@ fbr:Neymar a fbo:Player ;
   fbo:joinedYear 2010 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg/440px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg";
   fbo:belongToCountry fbr:Brazil ;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Vinicius_Junior a fbo:Player ;
   fbo:name "Vinicius Junior" ;
@@ -177,7 +177,7 @@ fbr:Vinicius_Junior a fbo:Player ;
   fbo:joinedYear 2019 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vinicius_Jr_2021.jpg/440px-Vinicius_Jr_2021.jpg";
   fbo:belongToCountry fbr:Brazil ;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 ### Algerian players
 fbr:Riyad_Mahrez a fbo:Player ;
@@ -187,7 +187,7 @@ fbr:Riyad_Mahrez a fbo:Player ;
   fbo:joinedYear 2014 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Alg%C3%A9rie_-_Arm%C3%A9nie_-_20140531_-_Riyad_Mahrez_%28cropped%29.jpg/440px-Alg%C3%A9rie_-_Arm%C3%A9nie_-_20140531_-_Riyad_Mahrez_%28cropped%29.jpg";
   fbo:belongToCountry fbr:Algeria ;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Anthony_Mandrea a fbo:Player ;
   fbo:name "Anthony Mandrea" ;
@@ -195,7 +195,7 @@ fbr:Anthony_Mandrea a fbo:Player ;
   fbo:goals 1;
   fbo:joinedYear 2022 ;
   fbo:belongToCountry fbr:Algeria ;
-  fbo:hasPosition fbo:fbo:Goalkeeper.
+  fbo:hasPosition fbo:Goalkeeper.
 
 ### Egypt players
 fbr:Mohamed_Salah a fbo:Player ;
@@ -205,7 +205,7 @@ fbr:Mohamed_Salah a fbo:Player ;
   fbo:joinedYear 2011 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/440px-Mohamed_Salah_2018.jpg";
   fbo:belongToCountry fbr:Egypt ;
-  fbo:hasPosition fbo:fbo:Forward.
+  fbo:hasPosition fbo:Forward.
 
 fbr:Ahmed_Hegazi a fbo:Player ;
   fbo:name "Ahmed Hegazi" ;
@@ -214,4 +214,4 @@ fbr:Ahmed_Hegazi a fbo:Player ;
   fbo:joinedYear 2011 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ahmed_Hegazi_2018.jpg/400px-Ahmed_Hegazi_2018.jpg";
   fbo:belongToCountry fbr:Egypt ;
-  fbo:hasPosition fbo:fbo:Defender.
+  fbo:hasPosition fbo:Defender.
