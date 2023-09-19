@@ -10,34 +10,56 @@ fbr:Le_Cong_Vinh a fbo:Player ;
   fbo:goals 50 ;
   fbo:joinedYear 2010 ;
   fbo:leftYear 2018 ;
-  fbo:belongToCountry fbr:Vietnam .
+  fbo:img: "http://commons.wikimedia.org/wiki/Special:FilePath/Cong_Vinh.png?width=300";
+  fbo:description: "Lê Công Vinh (born 10 December 1985, in Nghệ An, Vietnam) is a retired Vietnamese footballer. He was a part of the Vietnamese national team from 2004 to 2016 as an attacker. He received three Golden Ball Awards (2004, 2006, 2007). Le is considered one of the greatest football players in Vietnam football's history, achieving the highest scores of all time in the Vietnam National Football Team. On 8 December 2016, after losing to Indonesia at the AFF Cup 2016, he officially retired after an 18-year career. He is considered a Vietnamese football legend and famous in southeast Asia.";
+  fbo:belongToCountry fbr:Vietnam;
+  fbo:hasPosition fbo:Forward.
 
 fbr:Nguyen_Quang_hai a fbo:Player ;
   fbo:name "Nguyễn Quang Hải" ;
   fbo:goals 40 ;
   fbo:joinedYear 2018;
-  fbo:belongToCountry fbr:Vietnam .
-
+  fbo:img: "https://upload.wikimedia.org/wikipedia/commons/7/77/Nguy%E1%BB%85n_Quang_H%E1%BA%A3i.jpg";
+  fbo:description: "Nguyễn Quang Hải (born 12 April 1997) is a Vietnamese professional footballer who plays as an attacking midfielder or winger for Ligue 2 club Pau and the Vietnam national team. In 2018 and 2019, Quang Hải was nominated by a panel of sports journalists and football experts for Best Footballer in Asia.";
+  fbo:belongToCountry fbr:Vietnam;
+  fbo:hasPosition fbo:Forward.
+  
 ## Chinese players
 fbr:Li_Lei a fbo:Player ;
   fbo:name "Li Lei" ;
   fbo:goals 10 ;
   fbo:joinedYear 2019 ;
-  fbo:belongToCountry fbr:China .
+  fbo:description: "Li Lei (Chinese: 李磊; pinyin: Lǐ Lěi; Mandarin pronunciation: [lì lèɪ]; born 30 May 1992) is a Chinese footballer who plays as a left-back for Grasshoppers in the Swiss Super League.";
+  fbo:belongToCountry fbr:China;
+  fbo:hasPosition fbo:fbo:Defender.
 
 ## South korean players
 fbr:Son_Heung_min a fbo:Player ;
   fbo:name "Son Heung Min" ;
   fbo:goals 113;
   fbo:joinedYear 2010 ;
-  fbo:belongToCountry fbr:South_Korea .
+  fbo:img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Korea_Russia_WorldCup_02_%28cropped%29.png/440px-Team_Korea_Russia_WorldCup_02_%28cropped%29.png";
+  fbo:description: "Son Heung-min (Korean: 손흥민; Korean pronunciation: [son.ɣɯŋ.min]; born 8 July 1992) is a South Korean professional footballer who plays as a forward for and captains both Premier League club Tottenham Hotspur and the South Korea national team.[3] Considered one of the best players in the world and widely regarded as the greatest Asian footballer of all time, he is known for his explosive speed, finishing, two-footedness and ability to link play.";
+  fbo:belongToCountry fbr:South_Korea;
+  fbo:hasPosition fbo:fbo:Forward.
 
 fbr:Cho_Gue-sung a fbo:Player ;
   fbo:name "Cho Gue Sung" ;
   fbo:goals 26;
   fbo:joinedYear 2021 ;
+  fbo:description: "Cho Gue-sung (born 25 January 1998) is a South Korean footballer who plays as striker for Danish Superliga club Midtjylland and the South Korea national team.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg/440px-191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg";
-  fbo:belongToCountry fbr:South_Korea .
+  fbo:belongToCountry fbr:South_Korea;
+  fbo:hasPosition fbo:fbo:Forward.
+
+fbr:Lee_Kang-in a fbo:Player ;
+  fbo:name "Lee Kang In" ;
+  fbo:goals 14;
+  fbo:joinedYear 2019 ;
+  fbo:description: "Lee Kang-in (Korean: 이강인; born 19 February 2001) is a South Korean professional footballer who plays as an attacking midfielder or a winger for Ligue 1 club Paris Saint-Germain and the South Korea national team. Known for his dribbling ability, he is regarded as one of the best young Korean footballers.";
+  fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg/440px-Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg";
+  fbo:belongToCountry fbr:South_Korea;
+  fbo:hasPosition fbo:fbo:Midfielder.
 
 ## Saudi Arabian players
 fbr:Yasser_Al-Shahrani a fbo:Player ;
@@ -46,15 +68,37 @@ fbr:Yasser_Al-Shahrani a fbo:Player ;
   fbo:goals 75;
   fbo:joinedYear 2012 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Yasser_Al-Shahrani_2018.jpg/440px-Yasser_Al-Shahrani_2018.jpg";
-  fbo:belongToCountry fbr:Saudi_Arabia .
+  fbo:belongToCountry fbr:Saudi_Arabia;
+  fbo:hasPosition fbo:fbo:Defender.
+
+fbr:Mohammed_Al-Owais a fbo:Player ;
+  fbo:name "Mohammed Al Owais" ;
+  fbo:description "Mohammed Khalil Ibrahim Al-Owais (Arabic: محمد خليل إبراهيم العويس; born 10 October 1991) is a Saudi Arabian professional footballer who plays as a goalkeeper for Al-Hilal and the Saudi Arabia national team.[3] He is known for his fast reflexes and vigilance in goal.";
+  fbo:goals 6;
+  fbo:joinedYear 2022 ;
+  fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mohammed_Al-Owais_2018.jpg/440px-Mohammed_Al-Owais_2018.jpg";
+  fbo:belongToCountry fbr:Saudi_Arabia;
+  fbo:hasPosition fbo:fbo:Goalkeeper.
 
 ## Japanese players
 fbr:Takefusa_Kubo a fbo:Player ;
   fbo:name "Takefusa Kubo" ;
   fbo:goals 27;
   fbo:joinedYear 2019 ;
+  fbo:description: "Takefusa Kubo (久保 建英, Kubo Takefusa, born 4 June 2001), commonly known as Take Kubo, is a Japanese professional footballer[3] who plays as a right winger for La Liga club Real Sociedad and the Japan national team.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Takefusa_Kubo_2019.png/440px-Takefusa_Kubo_2019.png";
-  fbo:belongToCountry fbr:Japan .
+  fbo:belongToCountry fbr:Japan;
+  fbo:hasPosition fbo:fbo:Midfielders.
+
+fbr:Keito_Nakamura a fbo:Player ;
+  fbo:name "Keito Nakamura" ;
+  fbo:goals 3;
+  fbo:joinedYear 2023 ;
+  fbo:description "Keito Nakamura (中村 敬斗, Nakamura Keito, born 28 July 2000) is a Japanese professional footballer who plays for Ligue 1 club Reims and the Japan national team. He plays either as a winger or a forward.[2][3][4]";
+  fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/FC_Red_Bull_Salzburg_gegen_Linzer_ASK_%282022-10-01%29a_02.jpg/440px-FC_Red_Bull_Salzburg_gegen_Linzer_ASK_%282022-10-01%29a_02.jpg";
+  fbo:belongToCountry fbr:Japan;
+  fbo:hasPosition fbo:fbo:Midfielders;
+  fbo:hasPosition fbo:fbo:Forward.
 
 ## German players
 fbr:Thomas_Muller a fbo:Player ;
@@ -63,7 +107,8 @@ fbr:Thomas_Muller a fbo:Player ;
   fbo:goals 123;
   fbo:joinedYear 2010 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg/440px-2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg";
-  fbo:belongToCountry fbr:Germany .
+  fbo:belongToCountry fbr:Germany;
+  fbo:hasPosition fbo:fbo:Forward.
 
 fbr:Mario_Gotze a fbo:Player ;
   fbo:name "Mario Gotze" ;
@@ -71,7 +116,9 @@ fbr:Mario_Gotze a fbo:Player ;
   fbo:goals 66;
   fbo:joinedYear 2010 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Mario_G%C3%B6tze%2C_Germany_national_football_team_%2807%29.jpg/440px-Mario_G%C3%B6tze%2C_Germany_national_football_team_%2807%29.jpg";
-  fbo:belongToCountry fbr:Germany .
+  fbo:belongToCountry fbr:Germany ;
+  fbo:hasPosition fbo:fbo:Midfielders;
+  fbo:hasPosition fbo:fbo:Forward.
 
 ## France players
 fbr:Kylian_Mbappe a fbo:Player ;
@@ -80,7 +127,8 @@ fbr:Kylian_Mbappe a fbo:Player ;
   fbo:goals 71;
   fbo:joinedYear 2017 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg/440px-2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg";
-  fbo:belongToCountry fbr:France .
+  fbo:belongToCountry fbr:France ;
+  fbo:hasPosition fbo:fbo:Forward.
 
 fbr:Antoine_Griezmann a fbo:Player ;
   fbo:name "Antoine Griezmann" ;
@@ -88,7 +136,9 @@ fbr:Antoine_Griezmann a fbo:Player ;
   fbo:goals 123;
   fbo:joinedYear 2014 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Antoine_Griezmann_2018.jpg/440px-Antoine_Griezmann_2018.jpg";
-  fbo:belongToCountry fbr:France .
+  fbo:belongToCountry fbr:France ;
+  fbo:hasPosition fbo:fbo:Midfielders;
+  fbo:hasPosition fbo:fbo:Forward.
 
 ## Argentina players
 fbr:Lionel_Messi a fbo:Player ;
@@ -97,7 +147,9 @@ fbr:Lionel_Messi a fbo:Player ;
   fbo:goals 176;
   fbo:joinedYear 2005 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg";
-  fbo:belongToCountry fbr:Argentina .
+  fbo:belongToCountry fbr:Argentina ;
+  fbo:hasPosition fbo:fbo:Midfielders;
+  fbo:hasPosition fbo:fbo:Forward.
 
 fbr:Alejandro_Garnacho a fbo:Player ;
   fbo:name "Alejandro Garnacho" ;
@@ -105,7 +157,8 @@ fbr:Alejandro_Garnacho a fbo:Player ;
   fbo:goals 3;
   fbo:joinedYear 2023 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Manchester_United_v_Brighton_%26_Hove_Albion%2C_7_August_2022_%2836%29.jpg/440px-Manchester_United_v_Brighton_%26_Hove_Albion%2C_7_August_2022_%2836%29.jpg";
-  fbo:belongToCountry fbr:Argentina .
+  fbo:belongToCountry fbr:Argentina ;
+  fbo:hasPosition fbo:fbo:Midfielders.
 
 ### Brazil players
 fbr:Neymar a fbo:Player ;
@@ -114,7 +167,17 @@ fbr:Neymar a fbo:Player ;
   fbo:goals 126;
   fbo:joinedYear 2010 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg/440px-20180610_FIFA_Friendly_Match_Austria_vs._Brazil_Neymar_850_1705.jpg";
-  fbo:belongToCountry fbr:Brazil .
+  fbo:belongToCountry fbr:Brazil ;
+  fbo:hasPosition fbo:fbo:Forward.
+
+fbr:Vinicius_Junior a fbo:Player ;
+  fbo:name "Vinicius Junior" ;
+  fbo:description "Vinícius José Paixão de Oliveira Júnior (born 12 July 2000), commonly known as Vinícius Júnior or Vini Jr. (Brazilian Portuguese: [viˈnisjuz ˈʒũɲoʁ]),[3] is a Brazilian professional footballer who plays as a winger for La Liga club Real Madrid and the Brazil national team. Considered one of the best players in the world, he is known for his speed, strong dribbling abilities, and playmaking skills. Born in São Gonçalo, Vinícius began his professional career at Flamengo, where he made his senior debut in 2017, at age 16. A few weeks later, Vinícius was the subject of a transfer to La Liga club Real Madrid, for whom he signed for in a £38 million deal, which was a national record for an U-18 player.[9] The transfer was made effective after his 18th birthday, with Vinícius debuting for the club in 2018–19. By his fourth season, Vinícius had established himself as a prominent member in Real Madrid's squad, helping the club win the 2021–22 La Liga title[10] and scoring the winning goal in Real Madrid's 2022 UEFA Champions League final win. At his youth stage for Brazil, he was a key player in the victory at the 2015 South American U-15 Championship and 2017 South American U-17 Championship, finishing as leading goalscorer in the latter competition. He made his senior debut in 2021 and helped his nation to a runner-up finish at the 2021 Copa América and represented them at the 2022 FIFA World Cup in Qatar.";
+  fbo:goals 23;
+  fbo:joinedYear 2019 ;
+  fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vinicius_Jr_2021.jpg/440px-Vinicius_Jr_2021.jpg";
+  fbo:belongToCountry fbr:Brazil ;
+  fbo:hasPosition fbo:fbo:Forward.
 
 ### Algerian players
 fbr:Riyad_Mahrez a fbo:Player ;
@@ -123,7 +186,16 @@ fbr:Riyad_Mahrez a fbo:Player ;
   fbo:goals 85;
   fbo:joinedYear 2014 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Alg%C3%A9rie_-_Arm%C3%A9nie_-_20140531_-_Riyad_Mahrez_%28cropped%29.jpg/440px-Alg%C3%A9rie_-_Arm%C3%A9nie_-_20140531_-_Riyad_Mahrez_%28cropped%29.jpg";
-  fbo:belongToCountry fbr:Algeria .
+  fbo:belongToCountry fbr:Algeria ;
+  fbo:hasPosition fbo:fbo:Forward.
+
+fbr:Anthony_Mandrea a fbo:Player ;
+  fbo:name "Anthony Mandrea" ;
+  fbo:description "Mandrea made his Ligue 1 debut for Nice on 3 November 2013 in a 1–2 home defeat against Bordeaux, replacing an injured David Ospina after 51 minutes.[1] At 16 years and 10 months he was, at the time, the youngest goalkeeper to play in Ligue 1.[2] He made no further first team appearances for Nice, and in the summer of 2016 he moved to Angers, where he signed professional terms on a three-year deal in September 2017.[3] His Angers debut came in the Coupe de la Ligue on 12 December 2017 against Metz, in which he kept a clean sheet.[4]";
+  fbo:goals 1;
+  fbo:joinedYear 2022 ;
+  fbo:belongToCountry fbr:Algeria ;
+  fbo:hasPosition fbo:fbo:Goalkeeper.
 
 ### Egypt players
 fbr:Mohamed_Salah a fbo:Player ;
@@ -132,4 +204,14 @@ fbr:Mohamed_Salah a fbo:Player ;
   fbo:goals 91;
   fbo:joinedYear 2011 ;
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/440px-Mohamed_Salah_2018.jpg";
-  fbo:belongToCountry fbr:Egypt .
+  fbo:belongToCountry fbr:Egypt ;
+  fbo:hasPosition fbo:fbo:Forward.
+
+fbr:Ahmed_Hegazi a fbo:Player ;
+  fbo:name "Ahmed Hegazi" ;
+  fbo:description "Ahmed Elsayed Ali Elsayed Hegazy (Egyptian Arabic: أحمد السيد علي السيد حجازي; born 25 January 1991), simply known as Ahmed Hegazi, is an Egyptian professional footballer who plays as a centre-back for Saudi Professional League club Al-Ittihad, which he captains, and the Egypt national team";
+  fbo:goals 83;
+  fbo:joinedYear 2011 ;
+  fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ahmed_Hegazi_2018.jpg/400px-Ahmed_Hegazi_2018.jpg";
+  fbo:belongToCountry fbr:Egypt ;
+  fbo:hasPosition fbo:fbo:Defender.
