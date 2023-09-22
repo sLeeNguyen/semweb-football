@@ -66,7 +66,7 @@ export default async function Page({ params }: { params: { id: string } }) {
               {data.position && (
                 <tr>
                   <td>
-                    <b>position</b>
+                    <b>Position</b>
                   </td>
                   <td>{data.position}</td>
                 </tr>
@@ -120,7 +120,7 @@ export default async function Page({ params }: { params: { id: string } }) {
                   </td>
                 </tr>
               )}
-              {data.seasons.length && (
+              {data.seasons.length > 0 && (
                 <tr>
                   <td>
                     <b>League seasons</b>
@@ -140,7 +140,7 @@ export default async function Page({ params }: { params: { id: string } }) {
                   </td>
                 </tr>
               )}
-              {data.titles.length && (
+              {data.titles.length > 0 && (
                 <tr>
                   <td>
                     <b>Titles</b>

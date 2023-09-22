@@ -11,7 +11,7 @@ fbr:Le_Cong_Vinh a fbo:Player ;
   fbo:joinedYear 2010 ;
   fbo:leftYear 2018 ;
   fbo:img: "http://commons.wikimedia.org/wiki/Special:FilePath/Cong_Vinh.png?width=300";
-  fbo:description: "Lê Công Vinh (born 10 December 1985, in Nghệ An, Vietnam) is a retired Vietnamese footballer. He was a part of the Vietnamese national team from 2004 to 2016 as an attacker. He received three Golden Ball Awards (2004, 2006, 2007). Le is considered one of the greatest football players in Vietnam football's history, achieving the highest scores of all time in the Vietnam National Football Team. On 8 December 2016, after losing to Indonesia at the AFF Cup 2016, he officially retired after an 18-year career. He is considered a Vietnamese football legend and famous in southeast Asia.";
+  fbo:description "Lê Công Vinh (born 10 December 1985, in Nghệ An, Vietnam) is a retired Vietnamese footballer. He was a part of the Vietnamese national team from 2004 to 2016 as an attacker. He received three Golden Ball Awards (2004, 2006, 2007). Le is considered one of the greatest football players in Vietnam football's history, achieving the highest scores of all time in the Vietnam National Football Team. On 8 December 2016, after losing to Indonesia at the AFF Cup 2016, he officially retired after an 18-year career. He is considered a Vietnamese football legend and famous in southeast Asia.";
   fbo:belongToCountry fbr:Vietnam;
   fbo:hasPosition fbo:Forward.
 
@@ -20,7 +20,7 @@ fbr:Nguyen_Quang_hai a fbo:Player ;
   fbo:goals 40 ;
   fbo:joinedYear 2018;
   fbo:img: "https://upload.wikimedia.org/wikipedia/commons/7/77/Nguy%E1%BB%85n_Quang_H%E1%BA%A3i.jpg";
-  fbo:description: "Nguyễn Quang Hải (born 12 April 1997) is a Vietnamese professional footballer who plays as an attacking midfielder or winger for Ligue 2 club Pau and the Vietnam national team. In 2018 and 2019, Quang Hải was nominated by a panel of sports journalists and football experts for Best Footballer in Asia.";
+  fbo:description "Nguyễn Quang Hải (born 12 April 1997) is a Vietnamese professional footballer who plays as an attacking midfielder or winger for Ligue 2 club Pau and the Vietnam national team. In 2018 and 2019, Quang Hải was nominated by a panel of sports journalists and football experts for Best Footballer in Asia.";
   fbo:belongToCountry fbr:Vietnam;
   fbo:hasPosition fbo:Forward.
   
@@ -29,7 +29,7 @@ fbr:Li_Lei a fbo:Player ;
   fbo:name "Li Lei" ;
   fbo:goals 10 ;
   fbo:joinedYear 2019 ;
-  fbo:description: "Li Lei (Chinese: 李磊; pinyin: Lǐ Lěi; Mandarin pronunciation: [lì lèɪ]; born 30 May 1992) is a Chinese footballer who plays as a left-back for Grasshoppers in the Swiss Super League.";
+  fbo:description "Li Lei (Chinese: 李磊; pinyin: Lǐ Lěi; Mandarin pronunciation: [lì lèɪ]; born 30 May 1992) is a Chinese footballer who plays as a left-back for Grasshoppers in the Swiss Super League.";
   fbo:belongToCountry fbr:China;
   fbo:hasPosition fbo:Defender.
 
@@ -39,7 +39,7 @@ fbr:Son_Heung_min a fbo:Player ;
   fbo:goals 113;
   fbo:joinedYear 2010 ;
   fbo:img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Team_Korea_Russia_WorldCup_02_%28cropped%29.png/440px-Team_Korea_Russia_WorldCup_02_%28cropped%29.png";
-  fbo:description: "Son Heung-min (Korean: 손흥민; Korean pronunciation: [son.ɣɯŋ.min]; born 8 July 1992) is a South Korean professional footballer who plays as a forward for and captains both Premier League club Tottenham Hotspur and the South Korea national team.[3] Considered one of the best players in the world and widely regarded as the greatest Asian footballer of all time, he is known for his explosive speed, finishing, two-footedness and ability to link play.";
+  fbo:description "Son Heung-min (Korean: 손흥민; Korean pronunciation: [son.ɣɯŋ.min]; born 8 July 1992) is a South Korean professional footballer who plays as a forward for and captains both Premier League club Tottenham Hotspur and the South Korea national team.[3] Considered one of the best players in the world and widely regarded as the greatest Asian footballer of all time, he is known for his explosive speed, finishing, two-footedness and ability to link play.";
   fbo:belongToCountry fbr:South_Korea;
   fbo:hasPosition fbo:Forward.
 
@@ -47,7 +47,7 @@ fbr:Cho_Gue-sung a fbo:Player ;
   fbo:name "Cho Gue Sung" ;
   fbo:goals 26;
   fbo:joinedYear 2021 ;
-  fbo:description: "Cho Gue-sung (born 25 January 1998) is a South Korean footballer who plays as striker for Danish Superliga club Midtjylland and the South Korea national team.";
+  fbo:description "Cho Gue-sung (born 25 January 1998) is a South Korean footballer who plays as striker for Danish Superliga club Midtjylland and the South Korea national team.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg/440px-191130_%EB%B6%80%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC_VS_FC%EC%95%88%EC%96%91_%ED%94%8C%EB%A0%88%EC%9D%B4%EC%98%A4%ED%94%84%2C_%EC%A1%B0%EA%B7%9C%EC%84%B1_2.jpg";
   fbo:belongToCountry fbr:South_Korea;
   fbo:hasPosition fbo:Forward.
@@ -56,7 +56,7 @@ fbr:Lee_Kang-in a fbo:Player ;
   fbo:name "Lee Kang In" ;
   fbo:goals 14;
   fbo:joinedYear 2019 ;
-  fbo:description: "Lee Kang-in (Korean: 이강인; born 19 February 2001) is a South Korean professional footballer who plays as an attacking midfielder or a winger for Ligue 1 club Paris Saint-Germain and the South Korea national team. Known for his dribbling ability, he is regarded as one of the best young Korean footballers.";
+  fbo:description "Lee Kang-in (Korean: 이강인; born 19 February 2001) is a South Korean professional footballer who plays as an attacking midfielder or a winger for Ligue 1 club Paris Saint-Germain and the South Korea national team. Known for his dribbling ability, he is regarded as one of the best young Korean footballers.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg/440px-Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg";
   fbo:belongToCountry fbr:South_Korea;
   fbo:hasPosition fbo:Midfielder.
@@ -85,7 +85,7 @@ fbr:Takefusa_Kubo a fbo:Player ;
   fbo:name "Takefusa Kubo" ;
   fbo:goals 27;
   fbo:joinedYear 2019 ;
-  fbo:description: "Takefusa Kubo (久保 建英, Kubo Takefusa, born 4 June 2001), commonly known as Take Kubo, is a Japanese professional footballer[3] who plays as a right winger for La Liga club Real Sociedad and the Japan national team.";
+  fbo:description "Takefusa Kubo (久保 建英, Kubo Takefusa, born 4 June 2001), commonly known as Take Kubo, is a Japanese professional footballer[3] who plays as a right winger for La Liga club Real Sociedad and the Japan national team.";
   fbo:img "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Takefusa_Kubo_2019.png/440px-Takefusa_Kubo_2019.png";
   fbo:belongToCountry fbr:Japan;
   fbo:hasPosition fbo:Midfielders.

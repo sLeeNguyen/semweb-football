@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: { id: string } }) {
       </div>
       <div className="flex flex-col md:flex-row gap-10">
         <div className="max-w-[200px] min-w-[200px]">
-          <img className="w-full" src={data.img ?? "/images/unknown_user.png"} alt="player's avatar" />
+          <img className="w-full" src={data.img ?? "/images/unknown_country.png"} alt="image" />
         </div>
         <div className="flex-grow">
           <table className="w-full">
@@ -71,7 +71,7 @@ export default async function Page({ params }: { params: { id: string } }) {
                   </td>
                 </tr>
               )}
-              {data.seasons.length && (
+              {data.seasons.length > 0 && (
                 <tr>
                   <td>
                     <b>League seasons</b>
@@ -91,7 +91,7 @@ export default async function Page({ params }: { params: { id: string } }) {
                   </td>
                 </tr>
               )}
-              {data.titles.length && (
+              {data.titles.length > 0 && (
                 <tr>
                   <td>
                     <b>Titles</b>

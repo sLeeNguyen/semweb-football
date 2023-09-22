@@ -26,7 +26,6 @@ SELECT ?type
 WHERE {
 	fbr:{resource} a ?type
 }
-LIMIT 1
 `;
 
 export const playerInfoQuery = `

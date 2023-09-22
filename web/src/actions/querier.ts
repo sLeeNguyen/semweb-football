@@ -80,10 +80,10 @@ export class Querier {
     }));
   }
 
-  public async resourceType(resource: string): Promise<string | null> {
+  public async resourceType(resource: string): Promise<string[]> {
     const q = resourceTypeQuery.replaceAll(/{resource}/g, resource);
     const data = await this.query(q);
-    return data.results.bindings[0]?.type.value ?? null;
+    return data.results.bindings.map((item) => item.type.value);
   }
 
   public async player(player: string): Promise<Player | null> {
